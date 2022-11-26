@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+fieldset {
+    margin: 30px;
+    font-size: 1.4rem;
+    background: url(../../image/hotel1.webp) no-repeat center center/400px 750px;
+    width: 400px;
+    height: 750px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+label {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+input {
+    text-align: center;
+    /* display: block; */
+    height: 20px;
+}
+
+div,
+p,
+button {
+    margin: 10px;
+}
+
+form {
+    margin: auto;
+    text-align: center;
+    opacity: 0.8;
+}
+
+strong::before {
+    content: "*";
+    color: red;
+}
+
+ul {
+    margin: 10px;
+}
+
+#country_code {
+    text-align: left;
+}

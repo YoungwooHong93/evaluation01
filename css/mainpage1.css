@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(218, 239, 255);
+}
+
+header,
+main,
+footer {
+    width: 1400px;
+    margin: auto;
+    text-align: center
+}
+
+header,
+footer {
+    height: 180px;
+}
+
+main {
+    height: 880px;
+    margin-bottom: 10px;
+}
+
+header h1,
+header span,
+header nav,
+header nav li,
+header nav li a,
+#reservation_roomtype,
+aside {
+    display: inline-block;
+
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+/* =================================================== */
+
+
+header h1 {
+    text-indent: -9999em;
+    width: 150px;
+    height: 150px;
+    background: url(../../image/logo-somerset-en.png) 0/100% no-repeat;
+    float: left;
+    margin: 20px 0 0 30px;
+
+}
+
+/* =================================================== */
+
+
+header nav ul {
+    margin: 30px auto;
+}
+
+header nav li a {
+    width: 214px;
+    height: 39px;
+    background: url(../../image/hotel_menu.png) 0 0;
+}
+
+header ul li:nth-child(2) a {
+    background-position: 213px 0px;
+}
+
+header ul li:nth-child(3) a {
+    background-position: 430px 0px;
+}
+
+header ul li:nth-child(4) a {
+    background-position: 646px 0px;
+}
+
+header nav li a:hover {
+    background: url(../../image/hotel_menu.png) 0 -41px;
+}
+
+header ul li:nth-child(2) a:hover {
+    background-position: 213px -41px;
+}
+
+header ul li:nth-child(3) a:hover {
+    background-position: 430px -41px;
+}
+
+header ul li:nth-child(4) a:hover {
+    background-position: 646px -41px;
+}
+
+/* =================================================== */
+
+h1+span {
+    float: right;
+    border-radius: 10px 10px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+h1+span a {
+    text-decoration: none;
+
+}
+
+nav h2 input {
+    position: relative;
+    top: -14px;
+}
+
+#destination_search {
+    margin: 0 0 20px 0;
+    width: 214px;
+    height: 38px;
+    text-align: center;
+    border: solid 1px black;
+    border-radius: 10px 10px
+}
+
+/* =================================================== */
+main aside {
+    margin-left: -5px;
+    background-size: 100% 100%;
+    background: url(../../image/location_hotel.png) center center no-repeat;
+    width: 795px;
+    height: 795px;
+    vertical-align: top;
+}
+
+#reservation_roomtype section {
+    background-size: 100% 100%;
+    width: 600px;
+    height: 450px;
+}
+
+#reservation_roomtype article {
+    background-size: 100% 100%;
+    width: 600px;
+    height: 310px;
+}
+
+section,
+article,
+aside {
+    font-size: 20px;
+}
+
+section {
+    background: url(../../image/rooftop.jpg);
+}
+
+article {
+    background-position: center center;
+    background: url(../../image/room_type1.png)no-repeat;
+}
+
+footer {
+    text-align: center;
+    width: 1400px;
+}
+
+footer h3~li {
+    line-height: 3vh;
+}
+
+footer div a {
+    text-decoration: none;
+}
